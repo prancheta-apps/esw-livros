@@ -24,19 +24,20 @@ export default function Home() {
   return (
     <div className="w-full p-8">
       <div className="text-center mb-4">
-        <h1 className="font-bold text-2xl">Livros de Tecnologia</h1>
+        <h1 className="font-bold text-2xl">Livros de Engenharia de Software</h1>
         <span className="px-4">
-          Criando uma base de bons livros para impussionar o aprendizado em
-          tecnologia.
+          Criando uma base de bons livros para impulsionar o aprendizado na área de
+          Engenharia de Software.
         </span>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center mb-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-center mb-4">
         {booksDisplayed().map((book, bookId) => (
           <Book
             key={bookId}
             name={book.name}
             image={book.image}
             buyLink={book.buyLink}
+            store={book.store}
           />
         ))}
       </div>

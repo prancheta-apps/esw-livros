@@ -1,122 +1,38 @@
 [
   {
-    "name": "Livro 1",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
+    "name": "Código Limpo",
+    "image": "/livros/codigo-limpo.jpg",
+    "buyLink": "https://amzn.to/3ygxmSO",
+    "store": "na Amazon"
+  }, 
+  {
+    "name": "O codificador limpo",
+    "image": "/livros/codificador-limpo.jpg",
+    "buyLink": "https://amzn.to/3n94OnJ",
+    "store": "na Amazon"
   },
   {
-    "name": "Livro 2",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
+    "name": "Arquitetura limpa",
+    "image": "/livros/arq-limpa.jpg",
+    "buyLink": "https://amzn.to/3tVPHSz",
+    "store": "na Amazon"
   },
   {
-    "name": "Livro 3",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
+    "name": "Desenvolvimento ágil limpo",
+    "image": "/livros/des-agil-limpo.jpg",
+    "buyLink": "https://amzn.to/3yeAH4J",
+    "store": "na Amazon"
+  }, 
+  {
+    "name": "O Programador Pragmático",
+    "image": "/livros/prog-pragmatico.jpg",
+    "buyLink": "https://amzn.to/3QEqc1I",
+    "store": "na Amazon"
   },
   {
-    "name": "Livro 4",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
-  },
-  {
-    "name": "Livro 5",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
-  },
-  {
-    "name": "Livro 6",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
-  },
-  {
-    "name": "Livro 7",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
-  },
-  {
-    "name": "Livro 8",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
-  },
-  {
-    "name": "Livro 9",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
-  },
-  {
-    "name": "Livro 10",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
-  },
-  {
-    "name": "Livro 11",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
-  },
-  {
-    "name": "Livro 12",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
-  },
-  {
-    "name": "Livro 13",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
-  },
-  {
-    "name": "Livro 14",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
-  },
-  {
-    "name": "Livro 15",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
-  },
-  {
-    "name": "Livro 16",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
-  },
-  {
-    "name": "Livro 17",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
-  },
-  {
-    "name": "Livro 18",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
-  },
-  {
-    "name": "Livro 19",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
-  },
-  {
-    "name": "Livro 20",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
-  },
-  {
-    "name": "Livro 21",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
-  },
-  {
-    "name": "Livro 22",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
-  },
-  {
-    "name": "Livro 23",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
-  },
-  {
-    "name": "Livro 24",
-    "image": "https://i.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA",
-    "buyLink": "/"
+    "name": "Trabalho eficaz com código legado",
+    "image": "/livros/trab-eficaz-cod-legado.jpg",
+    "buyLink": "https://amzn.to/3HN559h",
+    "store": "na Amazon"
   }
 ]
