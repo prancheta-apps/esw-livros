@@ -15,6 +15,7 @@ export default function LivrosdeTi({ Component, pageProps }) {
         <meta name="copyright" content="https://eswlivros.com.br" />
         <meta name="robots" content="index,follow" />
         <link rel="icon" href="/logo.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
       </Head>
       <Component {...pageProps} />
     </>

@@ -1,79 +1,67 @@
-import { useState } from "react";
-import Script from "next/script";
-import Book from "../components/Book";
-import Pagination from "../components/Pagination";
-import books from "../data/books.json";
+import { useEffect, useState } from "react";
+import Books from "../components/Books";
+import Footer from "../components/Footer";
+import GoogleAnalytics from "../components/GoogleAnalytics";
+import Header from "../components/Header";
+import ViewMore from "../components/ViewMore";
+import booksJson from "../data/books.json";
+import Filters from "../components/Filters";
+import RightSideInfo from "../components/RightSideInfo";
+
+const LIMIT_BOOKS = 8;
 
 export default function Home() {
-  const [currentPage, setCurrentPage] = useState(1);
+  const [books, setBooks] = useState(booksJson);
+  const [countBooksDisplayed, setCountBooksDisplayed] = useState(LIMIT_BOOKS);
+  const [booksDisplayed, setBooksDisplayed] = useState(books.slice(0, countBooksDisplayed))
 
-  const booksPerPage = 12;
-  const countPages = Math.ceil(books.length / booksPerPage);
-
-  const prevPage = () => {
-    setCurrentPage(currentPage - 1);
+  const showMoreBooks = () => {
+    if (countBooksDisplayed < books.length) {
+      const countBooksDisplayed_ = countBooksDisplayed + LIMIT_BOOKS
+      setCountBooksDisplayed(countBooksDisplayed_)
+      setBooksDisplayed(books.slice(0, countBooksDisplayed_))
+    }
   };
 
-  const nextPage = () => {
-    setCurrentPage(currentPage + 1);
-  };
-
-  const booksDisplayed = () => {
-    return books.slice(
-      (currentPage - 1) * booksPerPage,
-      currentPage * booksPerPage
-    );
+  const filterBooks = (filterName) => {
+    if (filterName === "a-z") {
+      setBooks(
+        books.sort((a, b) => {
+          const a_ = a.name.toLowerCase();
+          const b_ = b.name.toLowerCase();
+          if (a_ < b_) return -1;
+          if (a_ > b_) return 1;
+          return 0;
+        })
+      );
+      setBooksDisplayed(books.slice(0, countBooksDisplayed));
+    }
+    if (filterName === "z-a") {
+      setBooks(
+        books.sort((a, b) => {
+          const a_ = a.name.toLowerCase();
+          const b_ = b.name.toLowerCase();
+          if (a_ > b_) return -1;
+          if (a_ < b_) return 1;
+          return 0;
+        })
+      );
+      setBooksDisplayed(books.slice(0, countBooksDisplayed));
+    }
   };
 
   return (
     <div className="w-full p-8">
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-73K8Q4M5SH"
-      ></Script>
-      <Script id="google-analytics">
-        {`
-                     window.dataLayer = window.dataLayer || [];
-                     function gtag(){dataLayer.push(arguments)}
-                     gtag('js', new Date());
- 
-                     gtag('config', 'G-73K8Q4M5SH');
-                    `}
-      </Script>
-      <div className="text-center mb-4">
-        <h1 className="font-bold text-2xl">Livros de Engenharia de Software</h1>
-        <span className="px-4">
-          Criando uma base de bons livros para impulsionar o aprendizado na área
-          de Engenharia de Software.
-        </span>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-center mb-4">
-        {booksDisplayed().map((book, bookId) => (
-          <Book
-            key={bookId}
-            name={book.name}
-            image={book.image}
-            buyLink={book.buyLink}
-            store={book.store}
-          />
-        ))}
-      </div>
-      <Pagination
-        countPages={countPages}
-        onPrev={prevPage}
-        onNext={nextPage}
-        currentPage={currentPage}
+      <RightSideInfo />
+      <GoogleAnalytics />
+      <Header />
+      <Filters onFilter={filterBooks} />
+      <Books data={booksDisplayed} />
+      <ViewMore
+        onClick={showMoreBooks}
+        hide={countBooksDisplayed >= books.length}
       />
-      <div>
-        <div className="mt-4 w-full border border-gray-500"></div>
-        <p className="text-center">
-          Para os simpatizantes de open-source: licenciado sob uma licença de
-          código aberto.
-        </p>
-        <p className="text-center">
-          Para os demais: todos os direitos reservados.
-        </p>
-      </div>
+      <Footer />
     </div>
   );
 }

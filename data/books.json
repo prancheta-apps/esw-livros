@@ -4,7 +4,7 @@
     "image": "/livros/codigo-limpo.jpg",
     "buyLink": "https://amzn.to/3ygxmSO",
     "store": "na Amazon"
-  }, 
+  },
   {
     "name": "O codificador limpo",
     "image": "/livros/codificador-limpo.jpg",
@@ -22,7 +22,7 @@
     "image": "/livros/des-agil-limpo.jpg",
     "buyLink": "https://amzn.to/3yeAH4J",
     "store": "na Amazon"
-  }, 
+  },
   {
     "name": "O Programador Pragmático",
     "image": "/livros/prog-pragmatico.jpg",
@@ -33,6 +33,18 @@
     "name": "Trabalho eficaz com código legado",
     "image": "/livros/trab-eficaz-cod-legado.jpg",
     "buyLink": "https://amzn.to/3HN559h",
+    "store": "na Amazon"
+  },
+  {
+    "name": "O mítico homem-mês",
+    "image": "/livros/mitico-homem-mes.jpg",
+    "buyLink": "https://amzn.to/39STXLJ",
+    "store": "na Amazon"
+  },
+  {
+    "name": "Extreme Programming",
+    "image": "/livros/xp.jpg",
+    "buyLink": "https://amzn.to/3nxmNoh",
     "store": "na Amazon"
   }
 ]
