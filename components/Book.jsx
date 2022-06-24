@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-export default function Book({name, image, buyLink, store}){
+export default function Book({name, image, buyLink, store = 'na Amazon'}){
     return (
         <div className='flex flex-col items-center m-4'>
            <Image width={200} height={300} src={image} alt={name}/>

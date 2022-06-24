@@ -2,49 +2,81 @@
   {
     "name": "Código Limpo",
     "image": "/livros/codigo-limpo.jpg",
-    "buyLink": "https://amzn.to/3ygxmSO",
-    "store": "na Amazon"
+    "buyLink": "https://amzn.to/3ygxmSO"
   },
   {
     "name": "O codificador limpo",
     "image": "/livros/codificador-limpo.jpg",
-    "buyLink": "https://amzn.to/3n94OnJ",
-    "store": "na Amazon"
+    "buyLink": "https://amzn.to/3n94OnJ"
   },
   {
     "name": "Arquitetura limpa",
     "image": "/livros/arq-limpa.jpg",
-    "buyLink": "https://amzn.to/3tVPHSz",
-    "store": "na Amazon"
+    "buyLink": "https://amzn.to/3tVPHSz"
   },
   {
     "name": "Desenvolvimento ágil limpo",
     "image": "/livros/des-agil-limpo.jpg",
-    "buyLink": "https://amzn.to/3yeAH4J",
-    "store": "na Amazon"
+    "buyLink": "https://amzn.to/3yeAH4J"
   },
   {
     "name": "O Programador Pragmático",
     "image": "/livros/prog-pragmatico.jpg",
-    "buyLink": "https://amzn.to/3QEqc1I",
-    "store": "na Amazon"
+    "buyLink": "https://amzn.to/3QEqc1I"
   },
   {
     "name": "Trabalho eficaz com código legado",
     "image": "/livros/trab-eficaz-cod-legado.jpg",
-    "buyLink": "https://amzn.to/3HN559h",
-    "store": "na Amazon"
+    "buyLink": "https://amzn.to/3HN559h"
   },
   {
     "name": "O mítico homem-mês",
     "image": "/livros/mitico-homem-mes.jpg",
-    "buyLink": "https://amzn.to/39STXLJ",
-    "store": "na Amazon"
+    "buyLink": "https://amzn.to/39STXLJ"
   },
   {
     "name": "Extreme Programming",
     "image": "/livros/xp.jpg",
-    "buyLink": "https://amzn.to/3nxmNoh",
-    "store": "na Amazon"
+    "buyLink": "https://amzn.to/3nxmNoh"
+  },
+  {
+    "name": "Construindo uma Carreira em Software",
+    "image": "/livros/carreira-software.jpg",
+    "buyLink": "https://amzn.to/3ybUJvB"
+  },
+  {
+    "name": "Padrões de Projetos",
+    "image": "/livros/padroes-projeto.jpg",
+    "buyLink": "https://amzn.to/3OFrszW"
+  },
+  {
+    "name": "Equipes de Software",
+    "image": "/livros/equipes-software.jpg",
+    "buyLink": "https://amzn.to/3NkDTQC"
+  },
+  {
+    "name": "Algoritmos",
+    "image": "/livros/algoritmos.jpg",
+    "buyLink": "https://amzn.to/3NokY7f"
+  },
+  {
+    "name": "Algoritmos de destruição em massa",
+    "image": "/livros/alg-destruicao-massa.jpg",
+    "buyLink": "https://amzn.to/3A3GdbO"
+  },
+  {
+    "name": "Engenharia de Software Moderna",
+    "image": "/livros/esw-moderna.jpg",
+    "buyLink": "https://amzn.to/3yjoX0A"
+  }, 
+  {
+    "name": "Engenharia de Software (9ª edição)",
+    "image": "/livros/esw-sommervile.jpg",
+    "buyLink": "https://amzn.to/3QLGJRl"
+  }, 
+  {
+    "name": "Scrum",
+    "image": "/livros/scrum.jpg",
+    "buyLink": "https://amzn.to/3OipRjv"
   }
 ]

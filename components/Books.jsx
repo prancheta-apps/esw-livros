@@ -9,7 +9,6 @@ export default function Books({data}){
             name={book.name}
             image={book.image}
             buyLink={book.buyLink}
-            store={book.store}
           />
         ))}
       </div>
