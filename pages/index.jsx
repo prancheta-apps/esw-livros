@@ -1,14 +1,14 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Books from "../components/Books";
 import Footer from "../components/Footer";
 import GoogleAnalytics from "../components/GoogleAnalytics";
 import Header from "../components/Header";
 import ViewMore from "../components/ViewMore";
 import booksJson from "../data/books.json";
-import Filters from "../components/Filters";
+import Sort from "../components/Sort";
 import RightSideInfo from "../components/RightSideInfo";
 
-const LIMIT_BOOKS = 8;
+const LIMIT_BOOKS = 6;
 
 export default function Home() {
   const [books, setBooks] = useState(booksJson);
@@ -55,7 +55,7 @@ export default function Home() {
       <RightSideInfo />
       <GoogleAnalytics />
       <Header />
-      <Filters onFilter={filterBooks} />
+      <Sort onSort={filterBooks} />
       <Books data={booksDisplayed} />
       <ViewMore
         onClick={showMoreBooks}

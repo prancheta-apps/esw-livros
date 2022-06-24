@@ -78,5 +78,30 @@
     "name": "Scrum",
     "image": "/livros/scrum.jpg",
     "buyLink": "https://amzn.to/3OipRjv"
+  },
+  {
+    "name": "Leis fundamentais do Projeto de Software",
+    "image": "/livros/leis-projeto-esw.jpg",
+    "buyLink": "https://amzn.to/3OuKJnA"
+  },
+  {
+    "name": "Como ser um programador melhor",
+    "image": "/livros/como-ser-dev-melhor.jpg",
+    "buyLink": "https://amzn.to/3nfFH2x"
+  },
+  {
+    "name": "Domain-Driven Design",
+    "image": "/livros/ddd.jpg",
+    "buyLink": "https://amzn.to/39SCxyO"
+  },
+  {
+    "name": "UML 2",
+    "image": "/livros/uml.jpg",
+    "buyLink": "https://amzn.to/3bjsjrr"
+  },
+  {
+    "name": "Projeto Fênix",
+    "image": "/livros/projeto-fenix.jpg",
+    "buyLink": "https://amzn.to/3Nl3BED"
   }
 ]
