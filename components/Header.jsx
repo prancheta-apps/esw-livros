@@ -6,7 +6,7 @@ export default function Header() {
       </h1>
       <span>
         Indicações de clássicos
-        como &quot;O Mítico Homem-Mês&quot; e &quot;Código Limpo&quot;
+        como &quot;O Mítico Homem-Mês&quot;, &quot;Código Limpo&quot;
         e livros recentes como &quot;O Projeto Fênix&quot;:
       </span>
     </div>
