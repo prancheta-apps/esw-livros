@@ -3,7 +3,7 @@ export default function RightSideInfo() {
     <div className="absolute right-0 top-0 mr-4 mt-4">
       <a
         target="_blank"
-        href="https://github.com/prancheta-apps"
+        href="https://github.com/savi8sant8s/esw-livros"
         className="fa fa-github mr-4"
         rel="noreferrer"
       ></a>
