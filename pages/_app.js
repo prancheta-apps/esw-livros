@@ -5,10 +5,10 @@ export default function LivrosdeTi({ Component, pageProps }) {
     <>
      <Head>
         <title>Livros de Engenharia de Software</title>
-        <meta name="description" content="Compre livros de Engenharia de Software. Impulsione seu aprendizado." />
+        <meta name="description" content="Impulsione sua carreira e seu aprendizado com essas indicações de livros na área de Engenharia de Software." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Sávio Santos" />
-        <meta name="keywords" content="livros, engenharia de software, software, esw" />
+        <meta name="keywords" content="indicações, livros, engenharia de software, aprendizado, carreira" />
         <meta name="rating" content="General" />
         <meta name="distribution" content="Global" />
         <meta name="identifier-url" content="https://eswlivros.com.br/" />
