@@ -15,6 +15,9 @@ export default function LivrosdeTi({ Component, pageProps }) {
         <meta name="copyright" content="https://eswlivros.com.br" />
         <meta name="robots" content="index,follow" />
         <link rel="icon" href="/logo.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
       </Head>
       <Component {...pageProps} />

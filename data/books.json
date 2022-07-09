@@ -1,58 +1,8 @@
 [
   {
-    "name": "Código Limpo",
-    "image": "/livros/codigo-limpo.jpg",
-    "buyLink": "https://amzn.to/3ygxmSO"
-  },
-  {
-    "name": "O codificador limpo",
-    "image": "/livros/codificador-limpo.jpg",
-    "buyLink": "https://amzn.to/3n94OnJ"
-  },
-  {
-    "name": "Arquitetura limpa",
-    "image": "/livros/arq-limpa.jpg",
-    "buyLink": "https://amzn.to/3tVPHSz"
-  },
-  {
-    "name": "Desenvolvimento ágil limpo",
-    "image": "/livros/des-agil-limpo.jpg",
-    "buyLink": "https://amzn.to/3yeAH4J"
-  },
-  {
-    "name": "O Programador Pragmático",
-    "image": "/livros/prog-pragmatico.jpg",
-    "buyLink": "https://amzn.to/3QEqc1I"
-  },
-  {
-    "name": "Trabalho eficaz com código legado",
-    "image": "/livros/trab-eficaz-cod-legado.jpg",
-    "buyLink": "https://amzn.to/3HN559h"
-  },
-  {
-    "name": "O mítico homem-mês",
-    "image": "/livros/mitico-homem-mes.jpg",
-    "buyLink": "https://amzn.to/39STXLJ"
-  },
-  {
-    "name": "Extreme Programming",
-    "image": "/livros/xp.jpg",
-    "buyLink": "https://amzn.to/3nxmNoh"
-  },
-  {
-    "name": "Construindo uma Carreira em Software",
-    "image": "/livros/carreira-software.jpg",
-    "buyLink": "https://amzn.to/3ybUJvB"
-  },
-  {
-    "name": "Padrões de Projetos",
-    "image": "/livros/padroes-projeto.jpg",
-    "buyLink": "https://amzn.to/3OFrszW"
-  },
-  {
-    "name": "Equipes de Software",
-    "image": "/livros/equipes-software.jpg",
-    "buyLink": "https://amzn.to/3NkDTQC"
+    "name": "A Startup Enxuta",
+    "image": "/livros/startup-enxuta.jpg",
+    "buyLink": "https://amzn.to/3c4MPwg"
   },
   {
     "name": "Algoritmos",
@@ -65,24 +15,9 @@
     "buyLink": "https://amzn.to/3A3GdbO"
   },
   {
-    "name": "Engenharia de Software Moderna",
-    "image": "/livros/esw-moderna.jpg",
-    "buyLink": "https://amzn.to/3yjoX0A"
-  }, 
-  {
-    "name": "Engenharia de Software (9ª edição)",
-    "image": "/livros/esw-sommervile.jpg",
-    "buyLink": "https://amzn.to/3QLGJRl"
-  }, 
-  {
-    "name": "Scrum",
-    "image": "/livros/scrum.jpg",
-    "buyLink": "https://amzn.to/3OipRjv"
-  },
-  {
-    "name": "Leis fundamentais do Projeto de Software",
-    "image": "/livros/leis-projeto-esw.jpg",
-    "buyLink": "https://amzn.to/3OuKJnA"
+    "name": "Arquitetura limpa",
+    "image": "/livros/arq-limpa.jpg",
+    "buyLink": "https://amzn.to/3tVPHSz"
   },
   {
     "name": "Como ser um programador melhor",
@@ -90,18 +25,98 @@
     "buyLink": "https://amzn.to/3nfFH2x"
   },
   {
+    "name": "Construindo uma Carreira em Software",
+    "image": "/livros/carreira-software.jpg",
+    "buyLink": "https://amzn.to/3ybUJvB"
+  },
+  {
+    "name": "Código Limpo",
+    "image": "/livros/codigo-limpo.jpg",
+    "buyLink": "https://amzn.to/3ygxmSO"
+  },
+  {
+    "name": "Desenvolvimento ágil limpo",
+    "image": "/livros/des-agil-limpo.jpg",
+    "buyLink": "https://amzn.to/3yeAH4J"
+  },
+  {
     "name": "Domain-Driven Design",
     "image": "/livros/ddd.jpg",
     "buyLink": "https://amzn.to/39SCxyO"
   },
   {
-    "name": "UML 2",
-    "image": "/livros/uml.jpg",
-    "buyLink": "https://amzn.to/3bjsjrr"
+    "name": "Engenharia de Software (9ª edição)",
+    "image": "/livros/esw-sommervile.jpg",
+    "buyLink": "https://amzn.to/3QLGJRl"
+  },
+  {
+    "name": "Engenharia de Software Moderna",
+    "image": "/livros/esw-moderna.jpg",
+    "buyLink": "https://amzn.to/3yjoX0A"
+  },
+  {
+    "name": "Equipes de Software",
+    "image": "/livros/equipes-software.jpg",
+    "buyLink": "https://amzn.to/3NkDTQC"
+  },
+  {
+    "name": "Extreme Programming",
+    "image": "/livros/xp.jpg",
+    "buyLink": "https://amzn.to/3nxmNoh"
+  },
+  {
+    "name": "Leis fundamentais do Projeto de Software",
+    "image": "/livros/leis-projeto-esw.jpg",
+    "buyLink": "https://amzn.to/3OuKJnA"
+  },
+  {
+    "name": "O codificador limpo",
+    "image": "/livros/codificador-limpo.jpg",
+    "buyLink": "https://amzn.to/3n94OnJ"
+  },
+  {
+    "name": "O mítico homem-mês",
+    "image": "/livros/mitico-homem-mes.jpg",
+    "buyLink": "https://amzn.to/39STXLJ"
+  },
+  {
+    "name": "O Programador Pragmático",
+    "image": "/livros/prog-pragmatico.jpg",
+    "buyLink": "https://amzn.to/3QEqc1I"
+  },
+  {
+    "name": "O projeto do projeto",
+    "image": "/livros/projeto-do-projeto.jpg",
+    "buyLink": "https://amzn.to/3O358Q8"
+  },
+  {
+    "name": "Padrões de Projetos",
+    "image": "/livros/padroes-projeto.jpg",
+    "buyLink": "https://amzn.to/3OFrszW"
   },
   {
     "name": "Projeto Fênix",
     "image": "/livros/projeto-fenix.jpg",
     "buyLink": "https://amzn.to/3Nl3BED"
+  },
+  {
+    "name": "Refatoração",
+    "image": "/livros/refat.jpg",
+    "buyLink": "https://amzn.to/3bQzNm4"
+  },
+  {
+    "name": "Scrum",
+    "image": "/livros/scrum.jpg",
+    "buyLink": "https://amzn.to/3OipRjv"
+  },
+  {
+    "name": "Trabalho eficaz com código legado",
+    "image": "/livros/trab-eficaz-cod-legado.jpg",
+    "buyLink": "https://amzn.to/3HN559h"
+  },
+  {
+    "name": "UML 2",
+    "image": "/livros/uml.jpg",
+    "buyLink": "https://amzn.to/3bjsjrr"
   }
 ]
